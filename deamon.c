@@ -22,6 +22,7 @@ void daemonize();
 void stop_server();
 void init_socket();
 
+int tuan
 int server_sockfd;
 
 int main(int argc, char *argv[])

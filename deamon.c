@@ -8,7 +8,7 @@
 #include <errno.h>
 #include <sys/signal.h>
 #include <wait.h>
-
+#include <time.h>
 #define PID_PATH "/home/uga/tschoend/un_server.pid"
 #define SOCK_PATH "/home/uga/tschoend/my_echo_socket"
 #define LOG_PATH "/home/uga/tschoend/un_server.log"
